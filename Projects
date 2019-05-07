@@ -1,8 +1,10 @@
 2.19 Warm up: Variables, input, and casting (Java)
 Instructor note:
-While you will be submitting this assignment through Zybooks, make sure you are still applying appropriate formatting and in-line commenting.
+While you will be submitting this assignment through Zybooks, make sure you are still applying appropriate formatting and 
+in-line commenting.
 
-(1) Prompt the user to input an integer, a double, a character, and a string, storing each into separate variables. Then, output those four values on a single line separated by a space. (Submit for 2 points).
+(1) Prompt the user to input an integer, a double, a character, and a string, storing each into separate variables. 
+Then, output those four values on a single line separated by a space. (Submit for 2 points).
 
 Enter integer: 99
 Enter double: 3.77
@@ -57,9 +59,13 @@ public class BasicInput {
 *******************************************************************************************************************
 2.20 Debugging: Painting a wall (Java)
 Instructor note:
-While you will be submitting this assignment through Zybooks, make sure you are still applying appropriate formatting and in-line commenting.
+While you will be submitting this assignment through Zybooks, make sure you are still applying appropriate formatting 
+and in-line commenting.
 
-Download the PaintEstimator.java file from Brightspace. This program has five (5) errors in it that require you to debug it. Watch the video on Using the Netbeans Debugger in the Building on the Basics section of Module 2, then use your IDE to debug and fix this program. As you find an error, be sure to document what you changed using in-code commenting. Upload the file here to be checked. Below is an explanation of how the program should work.
+Download the PaintEstimator.java file from Brightspace. This program has five (5) errors in it that require you to debug it. 
+Watch the video on Using the Netbeans Debugger in the Building on the Basics section of Module 2, then use your 
+IDE to debug and fix this program. As you find an error, be sure to document what you changed using in-code commenting. 
+Upload the file here to be checked. Below is an explanation of how the program should work.
 
 
 (1) Prompt the user to input a wall's height and width. Calculate and output the wall's area. (Submit for 2 points).
@@ -68,14 +74,16 @@ Enter wall height (feet): 12
 Enter wall width (feet): 15
 Wall area: 180.0 square feet
 
-(2) Extend to also calculate and output the amount of paint in gallons needed to paint the wall. Assume a gallon of paint covers 350 square feet. Store this value using a const double variable. (Submit for 1 points, so 3 points total).
+(2) Extend to also calculate and output the amount of paint in gallons needed to paint the wall. Assume a gallon of 
+paint covers 350 square feet. Store this value using a const double variable. (Submit for 1 points, so 3 points total).
 
 Enter wall height (feet): 12
 Enter wall width (feet): 15
 Wall area: 180.0 square feet
 Paint needed: 0.5142857142857142 gallons
 
-(3) Extend to also calculate and output the number of 1 gallon cans needed to paint the wall. Hint: Use a math function to round up to the nearest gallon. (Submit for 2 points, so 5 points total).
+(3) Extend to also calculate and output the number of 1 gallon cans needed to paint the wall. Hint: Use a math function 
+to round up to the nearest gallon. (Submit for 2 points, so 5 points total).
 
 Enter wall height (feet): 12
 Enter wall width (feet): 15
@@ -131,7 +139,8 @@ public class PaintEstimator {
 }
 ****************************************************************************************************************************
 3.14 Warm up: Text message abbreviation decoder (Java)
-(1) If a user's input string matches a known text message abbreviation, output the unabbreviated form, else output: Unknown. Support two abbreviations: LOL -- laughing out loud, and IDK -- I don't know. (3 pts) 
+(1) If a user's input string matches a known text message abbreviation, output the unabbreviated form, else output: 
+Unknown. Support two abbreviations: LOL -- laughing out loud, and IDK -- I don't know. (3 pts) 
 
 Sample input/output:
 
@@ -180,7 +189,8 @@ public class TextMsgAbbreviation {
 ****************************************************************************************************************************
 3.15 Program: Text message expander (Java)
 Instructor note:
-While you will be submitting this assignment through Zybooks, make sure you are still applying appropriate formatting and in-line commenting.
+While you will be submitting this assignment through Zybooks, make sure you are still applying appropriate 
+formatting and in-line commenting.
 
 Create a program using conditional logic and string operations that does the following using your NetBeans IDE and upload it here: 
 
@@ -191,7 +201,8 @@ Ex:
 Enter text: IDK how that happened. TTYL. 
 You entered: IDK how that happened. TTYL.
 
-(2) Expand common text message abbreviations. Output a message for each abbreviation that is expanded, then output the expanded line. Note: Check for abbreviations in the order provided below. (5 pts)
+(2) Expand common text message abbreviations. Output a message for each abbreviation that is expanded, then 
+output the expanded line. Note: Check for abbreviations in the order provided below. (5 pts)
 
 Support these abbreviations (you only need to support these):
 
@@ -279,7 +290,8 @@ Ex:
 
 Enter input string: Jill, Allen
 
-(2) Report an error if the input string does not contain a comma. Continue to prompt until a valid string is entered. Note: If the input contains a comma, then assume that the input also contains two strings. (2 pts) 
+(2) Report an error if the input string does not contain a comma. Continue to prompt until a valid string is entered. 
+Note: If the input contains a comma, then assume that the input also contains two strings. (2 pts) 
 
 Ex:
 
@@ -287,7 +299,8 @@ Enter input string: Jill Allen
 Error: No comma in string
 Enter input string: Jill, Allen
 
-(3) Extract the two words from the input string and remove any spaces. Store the strings in two separate variables and output the strings. (2 pts) 
+(3) Extract the two words from the input string and remove any spaces. Store the strings in two separate variables and 
+output the strings. (2 pts) 
 
 Ex:
 
@@ -347,9 +360,11 @@ public class ParseStrings
 *****************************************************************************************************************************
 7.5 Warm up: People's weights (Java)
 Instructor note:
-While you will be submitting this assignment through Zybooks, make sure you are still applying appropriate formatting and in-line commenting.
+While you will be submitting this assignment through Zybooks, make sure you are still applying appropriate formatting 
+and in-line commenting.
 
-(1) Prompt the user to enter five numbers, being five people's weights. Store the numbers in an array of doubles. Output the array's numbers on one line, each number followed by one space. (2 pts) 
+(1) Prompt the user to enter five numbers, being five people's weights. Store the numbers in an array of doubles. 
+Output the array's numbers on one line, each number followed by one space. (2 pts) 
 
 Ex:
 
